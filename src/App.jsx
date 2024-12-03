@@ -127,7 +127,7 @@ const App = () => {
     <div className="bg-white dark:bg-neutral-very-dark-blue-bg dark:text-white pb-10 font-sans overflow-hidden">
       <Heading />
       <div className={showCountriesPage ? "block" : "hidden"}>
-        <div className="p-10">
+        <div className="p-8 xs:p-6 xxs:p-4">
           <SearchCountry
             onSearchChange={onSearchChange}
             onRegionChange={onRegionChange}
