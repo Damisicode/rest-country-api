@@ -7,7 +7,7 @@ export default {
       screens: {
         "sm-md": "640px", // Custom size between sm (default 640px) and md (default 768px)
         "md-lg": "900px", // Custom size between md (default 768px) and lg (default 1024px)
-        xs: "480px", // Custom size for extra small screens (below 640px)
+        xs: "480px", // Custom size for extra small screens (below 480px)
       },
       colors: {
         neutral: {

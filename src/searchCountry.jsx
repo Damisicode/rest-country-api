@@ -17,8 +17,8 @@ const SearchCountry = ({ onSearchChange, onRegionChange }) => {
   const selectedRegion = "";
 
   return (
-    <div className="flex justify-between">
-      <div className="flex flex-row p-5 shadow-md rounded-md bg-white dark:bg-neutral-dark-blue-elements gap-3 dark:text-white">
+    <div className="flex justify-between flex-wrap gap-4">
+      <div className="flex flex-row p-5 shadow-md rounded-md bg-white dark:bg-neutral-dark-blue-elements gap-3 dark:text-white xs:w-full sm:w-fit">
         <img
           src={isDarkMode ? darkSearchSVG : searchSVG}
           alt="Search Icon"
@@ -35,7 +35,7 @@ const SearchCountry = ({ onSearchChange, onRegionChange }) => {
       <select
         value={selectedRegion || ""}
         onChange={handleRegionChange}
-        className="p-5 shadow-md rounded-md bg-white outline-none dark:text-white dark:bg-neutral-dark-blue-elements"
+        className="p-5 shadow-md rounded-md bg-white outline-none dark:text-white dark:bg-neutral-dark-blue-elements xs:w-full sm:w-fit"
       >
         <option value="" disabled hidden>
           Filter by Region

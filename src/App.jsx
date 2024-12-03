@@ -124,7 +124,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-neutral-very-dark-blue-bg dark:text-white pb-10 font-sans">
+    <div className="bg-white dark:bg-neutral-very-dark-blue-bg dark:text-white pb-10 font-sans overflow-hidden">
       <Heading />
       <div className={showCountriesPage ? "block" : "hidden"}>
         <div className="p-10">

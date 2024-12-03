@@ -6,7 +6,7 @@ import { DarkModeContext } from "./darkModeContext";
 const Heading = (props) => {
   const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
   return (
-    <div className="flex h-16 shadow-md flex-row justify-between items-center px-10 dark:bg-neutral-dark-blue-elements">
+    <div className="flex h-16 shadow-md flex-row justify-between items-center px-4 md:px-6 lg:px-10 dark:bg-neutral-dark-blue-elements">
       <h3 className="font-bold text-base">Where in the world?</h3>
       <div className="flex items-center space-x-2" onClick={toggleDarkMode}>
         <img
